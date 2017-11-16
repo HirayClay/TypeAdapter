@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
         typeAdapter = new TypeAdapter();
 
-        List<Object> data = new ArrayList<>();
+        List data = new ArrayList<>();
         data.add(new EditionHeader(354789));
 
         data.add(new OddEvenGrid()); //type = 1,2

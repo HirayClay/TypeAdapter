@@ -52,3 +52,10 @@ class DogBinder extends TypeBinder<DogItem,DogBinder.ViewHolder>{
     
     recyclerView.setAdapter(adapter);
 ```
+
+当然为了让数据和视图这种对应关系更明朗，可以这样添加binder
+```java
+    adapter.addBinder(DogItem.class,new DogBinder());
+    adapter.addBinder(CatItem.class,new CatBinder());
+    adapter.addBinder(FishItem.class,new FishBinder());
+```
