@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hiray.typeadapter.widget.BetBoxTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    app:stroke_color="@color/bet_number_color_blue"
+    app:stroke_width="2dp"
+    app:shape_corner="2dp"
+    app:extra_space="@dimen/padding_small"
+    android:textColor="@color/white"
+    tools:text="1" />

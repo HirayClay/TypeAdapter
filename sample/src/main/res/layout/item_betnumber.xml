@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/bet_root"
+    android:background="@color/bet_number_background"
+    android:layout_width="match_parent"
+    android:layout_marginTop="-1dp"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/multiplier"
+        android:layout_gravity="center"
+        android:layout_marginTop="16sp"
+        android:textColor="@color/bet_number_color_light"
+        tools:text="15倍"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hiray.typeadapter.widget.BetBoxTextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/transparent"
+        app:stroke_color="@color/bet_number_color_light"
+        app:scrim_color="@color/transparent"
+        app:shape_corner="2dp"
+        tools:text="111"
+        app:extra_text_size="12sp"
+        android:gravity="center"
+        app:stroke_width="1dp" />
+
+
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <TextView
+        android:id="@+id/one"
+        android:drawableTop="@drawable/even_oval"
+        android:gravity="center"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:textSize="12sp"
+        android:textColor="@color/bet_number_color_light"
+        tools:text="31" />
+
+    <TextView
+        android:id="@+id/two"
+        android:gravity="center"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:textSize="12sp"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@drawable/box_base"
+        android:textColor="@color/bet_number_color_light"
+        tools:text="31" />
+
+    <TextView
+        android:id="@+id/three"
+        android:textSize="12sp"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@drawable/box_base"
+        android:textColor="@color/bet_number_color_light"
+        tools:text="31" />
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@drawable/box_base"
+        android:textColor="@color/bet_number_color_light"
+        tools:text="31" />
+</LinearLayout>

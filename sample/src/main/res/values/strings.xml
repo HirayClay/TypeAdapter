@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TypeAdapter</string>
+
+    <string name="GridLayoutManager">android.support.v7.widget.GridLayoutManager</string>
+    <string name="LinearLayoutManager">android.support.v7.widget.LinearLayoutManager</string>
+    <string name="_19_999_832_699">fortune</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1f2b46"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_middle">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_small">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_middle"
+                android:text="和值单双"
+                android:textColor="#8dacfc" />
+
+            <TextView
+                android:id="@+id/multiplier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.8倍"
+                android:textColor="#546b9f" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <com.hiray.typeadapter.widget.BetNumberTextView
+                android:id="@+id/odd"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="单"
+                android:textColor="@color/colorOrange"
+                android:textSize="16sp"
+                app:extra_color="@color/white"
+                app:radius_left_bottom="true"
+                app:radius_left_top="true"
+                app:radius_right_bottom="false"
+                app:radius_right_top="false"
+                app:scrim_color="#1f2b46"
+                app:shape_corner="2dp"
+                app:stroke_color="#8dacfc"
+                app:stroke_width="1dp" />
+
+            <com.hiray.typeadapter.widget.BetNumberTextView
+                android:id="@+id/even"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="双"
+                android:textColor="#09c7ef"
+                android:textSize="16sp"
+                app:extra_color="@color/white"
+                app:radius_left_bottom="false"
+                app:radius_left_top="false"
+                app:radius_right_bottom="true"
+                app:radius_right_top="true"
+                app:scrim_color="#1f2b46"
+                app:shape_corner="2dp"
+                app:stroke_color="#8dacfc"
+                app:stroke_width="1dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

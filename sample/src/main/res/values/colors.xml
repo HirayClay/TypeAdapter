@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark"><!--#303F9F-->#282828</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="colorDivider">#eeeeee</color>
+    <color name="colorOrange">#ff6600</color>
+    <color name="lightBlue">#53bbfb</color>
+    <color name="lightYellow">#ffc52a</color>
+    <color name="colorBrown">#ba7d0e</color>
+
+
+    <!--Background Color-->
+    <color name="colorBackgroundLight">#f6f6f6</color>
+    <color name="bet_number_background">#1f2b46</color>
+    <color name="bet_number_color_blue">#8dacfc</color>
+    <color name="bet_number_color_light">#546b9f</color>
+
+    <!--Text Color-->
+    <color name="textColorLight">#999999</color>
+    <color name="textColor">#8c8c8c</color>
+    <color name="colorTextHint">#d9d9d9</color>
+    <color name="redLight">#f88989</color>
+    <color name="colorGray">#f6f6f6</color>
+    <color name="colorRed">#ea544a</color>
+    <color name="colorGreen">#a0c95b</color>
+    <color name="colorLightGray">#efefef</color>
+    <color name="gold_yellow">#f4b700</color>
+    <color name="colorDarkGreen">#019d90</color>
+    <color name="colorBlue">#5a84e6</color>
+
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <color name="transparent">#00ffffff</color>
+</resources>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bet_number_background"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_middle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_middle"
+                android:text="三同号"
+                android:textColor="@color/bet_number_color_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150倍"
+                android:textColor="@color/bet_number_color_light"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_middle"
+                android:text="通选"
+                android:textColor="@color/bet_number_color_blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24倍"
+                android:textColor="@color/bet_number_color_light"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.hiray.typeadapter.widget.BetBoxTextView
+                    android:id="@+id/irregular_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="111"
+                    android:textColor="@color/white"
+                    app:extra_space="2dp"
+                    app:extra_text_size="12sp"
+                    app:radius_left_bottom="false"
+                    app:radius_left_top="true"
+                    app:radius_right_bottom="false"
+                    app:radius_right_top="false"
+                    app:scrim_color="@color/bet_number_background"
+                    app:shape_corner="2dp"
+                    app:stroke_color="@color/bet_number_color_light"
+                    app:stroke_width="2dp" />
+
+                <com.hiray.typeadapter.widget.BetBoxTextView
+                    android:id="@+id/irregular_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="222"
+                    android:textColor="@color/white"
+                    app:extra_space="2dp"
+                    app:extra_text_size="12sp"
+                    app:radius_left_bottom="false"
+                    app:radius_left_top="false"
+                    app:radius_right_bottom="false"
+                    app:radius_right_top="false"
+                    app:scrim_color="@color/bet_number_background"
+                    app:shape_corner="3dp"
+                    app:stroke_color="@color/bet_number_color_light"
+                    app:stroke_width="2dp" />
+
+                <com.hiray.typeadapter.widget.BetBoxTextView
+                    android:id="@+id/irregular_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="333"
+                    android:textColor="@color/white"
+                    app:extra_space="2dp"
+                    app:extra_text_size="12sp"
+                    app:radius_left_bottom="false"
+                    app:radius_left_top="false"
+                    app:radius_right_bottom="false"
+                    app:radius_right_top="false"
+                    app:scrim_color="@color/bet_number_background"
+                    app:shape_corner="3dp"
+                    app:stroke_color="@color/bet_number_color_light"
+                    app:stroke_width="2dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:orientation="horizontal">
+
+                <com.hiray.typeadapter.widget.BetBoxTextView
+                    android:id="@+id/irregular_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="444"
+                    android:textColor="@color/white"
+                    app:extra_space="2dp"
+                    app:extra_text_size="12sp"
+                    app:radius_left_bottom="true"
+                    app:radius_left_top="false"
+                    app:radius_right_bottom="false"
+                    app:radius_right_top="false"
+                    app:scrim_color="@color/bet_number_background"
+                    app:shape_corner="3dp"
+                    app:stroke_color="@color/bet_number_color_light"
+                    app:stroke_width="2dp" />
+
+                <com.hiray.typeadapter.widget.BetBoxTextView
+                    android:id="@+id/irregular_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="555"
+                    android:textColor="@color/white"
+                    app:extra_space="2dp"
+                    app:extra_text_size="12sp"
+                    app:radius_left_bottom="false"
+                    app:radius_left_top="false"
+                    app:radius_right_bottom="false"
+                    app:radius_right_top="false"
+                    app:scrim_color="@color/bet_number_background"
+                    app:shape_corner="3dp"
+                    app:stroke_color="@color/bet_number_color_light"
+                    app:stroke_width="2dp" />
+
+                <com.hiray.typeadapter.widget.BetBoxTextView
+                    android:id="@+id/irregular_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="666"
+                    android:textColor="@color/white"
+                    app:extra_space="2dp"
+                    app:extra_text_size="12sp"
+                    app:radius_left_bottom="false"
+                    app:radius_left_top="false"
+                    app:radius_right_bottom="false"
+                    app:radius_right_top="false"
+                    app:scrim_color="@color/bet_number_background"
+                    app:shape_corner="3dp"
+                    app:stroke_color="@color/bet_number_color_light"
+                    app:stroke_width="2dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.hiray.typeadapter.widget.BetNumberTextView
+                android:id="@+id/irregular_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-2dp"
+                android:gravity="center"
+                android:text="111   222   333\n\n\n444   555  666"
+                android:textColor="@color/white"
+                app:extra_space="3dp"
+                app:extra_text_size="12sp"
+                app:scrim_color="@color/bet_number_background"
+                app:stroke_color="@color/bet_number_color_light"
+                app:stroke_width="2dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
